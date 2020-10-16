@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 public class Loginapp
 {
 	WebDriver driver;
+	// new comment fron kk
 	@Test
 	public void loginpage(WebDriver ldriver)
 	{
@@ -17,7 +18,7 @@ public class Loginapp
 	@FindBy(id="inputEmail3") WebElement uname;
 	@FindBy(id="inputPassword3") WebElement pwd;
 	@FindBy(css=".btn-primary") WebElement lgnbtn;
-	//@FindBy()
+	
 	
 	
 	
