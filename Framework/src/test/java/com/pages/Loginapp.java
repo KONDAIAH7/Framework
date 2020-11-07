@@ -22,21 +22,15 @@ public class Loginapp
 	
 	
 	
-	public void logintobcqam(String username,String password)
+	public void logintobcqam(String username,String password) throws InterruptedException
 	{
-		try 
-		{
-			
-			Thread.sleep(3000);
-		} 
-		catch (InterruptedException e)
-		{
-		
-		}
+		Thread.sleep(3000);
 		
 		uname.sendKeys(username);
 		pwd.sendKeys(password);
 		lgnbtn.click();
+		
+		
 	}
 	
 	

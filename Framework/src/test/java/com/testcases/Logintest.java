@@ -12,10 +12,11 @@ import com.utility.Helper;
 
 public class Logintest extends Baseclass
 {
-	
+	Loginapp lgnapp;
+
 	
 	@Test(priority=1)
-	public void bcqamlogin()
+	public void bcqamlogin() throws InterruptedException
 	{
 		logger=report.createTest("Login into BCQAM");
 		Loginapp lgnapp=PageFactory.initElements(driver, Loginapp.class);
