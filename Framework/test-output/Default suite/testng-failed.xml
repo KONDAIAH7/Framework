@@ -3,11 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.pages.Loginapp">
+      <class name="com.testcases.Logintest">
         <methods>
-          <include name="loginpage"/>
+          <include name="setupsuite"/>
+          <include name="teardownmethod"/>
+          <include name="startup"/>
+          <include name="bcqamlogout"/>
+          <include name="bcqamlogin"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.pages.Loginapp -->
+      </class> <!-- com.testcases.Logintest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
